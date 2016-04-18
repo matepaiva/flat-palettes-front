@@ -5,7 +5,7 @@
 
     if ((n < 1 || n > 5) || isNaN(n))
     {
-        console.log('Hash must be a number between 1 and 5.');
+        palletId.innerHTML = "<div class='pure-u-1-1'><h1>Set a hash value from #1 to #5 after the URL. </h1><h4>(e.g: '...flat-palletes-front/#1', '...flat-palletes-front/#2')</h4></div>";
     }
     else
     {
